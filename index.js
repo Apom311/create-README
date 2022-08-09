@@ -57,46 +57,46 @@ const questions = [
 const writeToFile = ({title, description, install, usage, contribute, test, license, profile, email }) =>
     `# **${title}**
 
-    ## Description 
+## Description 
 
-        ${description}
+    ${description}
 
-    ## Table of Contents 
+## Table of Contents 
 
-    - [Description](#description)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license)
-    - [Contribution](#contributing)
-    - [Testing](#tests)
-    - [Questions/Contact](#questions)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contribution](#contributing)
+- [Testing](#tests)
+- [Questions/Contact](#questions)
 
-    ## Installation 
+## Installation 
 
-        ${install}
+    ${install}
 
-    ## Usage
+## Usage
 
-        ${usage}
+    ${usage}
 
-    ## License 
+## License 
 
-        ${license}
+    ${license}
 
-    ## Contributing 
+## Contributing 
 
-        ${contribute}
+    ${contribute}
 
-    ## Tests
+## Tests
 
-        ${test}
+    ${test}
 
-    ## Questions
+## Questions
 
-        Reach me and all of my projects through Github @ 
-        https://github.com/${profile}
-        for further questions email me directly @
-        ${email}`;
+    Reach me and all of my projects through Github @ 
+    https://github.com/${profile}
+    for further questions email me directly @
+    ${email}`;
 
 
 
