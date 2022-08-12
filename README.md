@@ -1,8 +1,13 @@
-# **Yes**
+# **Read Me Generator**
 
 ## Description 
 
-    Things
+   To simplify the Task of getting a markdown README file going for future assignments
+
+   When the node index.js command is run
+   Then I am berated with with a series of Incredibly personal questions 
+   As A question is answered
+   It Then fills in to the appropriate position on the generated file to serve as a guideline for the project at hand
 
 ## Table of Contents 
 
