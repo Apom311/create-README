@@ -1,8 +1,8 @@
-# **a**
+# **Yes**
 
 ## Description 
 
-    b
+    Things
 
 ## Table of Contents 
 
@@ -16,27 +16,28 @@
 
 ## Installation 
 
-    c
+    npm i
 
 ## Usage
 
-    d
+    to test things
 
 ## License 
 
-    idk
+    MIT
+    TODO: This needs to be appended with 
 
 ## Contributing 
 
-    e
+    contacting me
 
 ## Tests
 
-    f
+    with the test command
 
 ## Questions
 
     Reach me and all of my projects through Github @ 
-    https://github.com/j
+    https://github.com/Apom311
     for further questions email me directly @
-    j
+    frost_bird@hotmail.com

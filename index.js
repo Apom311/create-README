@@ -35,10 +35,10 @@ const questions = [
         message: 'What command should be run to run tests',
     },
     {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'What Kind of License should this project have?',
-        choices: ['idk', 'fill in later', 'look up what a license is'],
+        choices: ['BSD', 'MIT', 'GPL'],
     },
     {
         type: 'input',
@@ -54,6 +54,17 @@ const questions = [
 
 
 // TODO: Create a function to write README file
+// function renderLicenseBadge(license) {
+//     // Returns badge based on the license selected
+//     if(license === "MIT") {
+//       return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+//     } else if (license === "GPL") {
+//       return '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)';
+//     } else if (license === "BSD") {
+//       return '[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)';
+
+//   }
+//
 const writeToFile = ({title, description, install, usage, contribute, test, license, profile, email }) =>
     `# **${title}**
 
@@ -82,6 +93,7 @@ const writeToFile = ({title, description, install, usage, contribute, test, lice
 ## License 
 
     ${license}
+    TODO: This needs to be appended with 
 
 ## Contributing 
 
